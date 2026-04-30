@@ -1,0 +1,49 @@
+---
+sidebar_position: 3
+id: intro
+title: Introduktion
+slug: /
+---
+
+# Intro
+
+<style>{`
+  .image-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+  }
+  .hero-img {
+    width: 50%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  }
+  @media (max-width: 768px) {
+    .image-grid {
+      flex-direction: column;
+    }
+    .hero-img {
+      width: 100%;
+    }
+  }
+`}</style>
+
+<div className='image-grid'>
+<img 
+ src="/img/hero/on-device.png"
+ alt="App icon"
+ className='hero-img'
+ />
+<img 
+ src="/img/hero/off-device.png"
+ alt="App icon"
+ className='hero-img'
+ />
+</div>
+
+Welcome to the technical documentation for app user interface. This project is built with a focus on reusable components and modularity to ensure a *consistent* user experience.

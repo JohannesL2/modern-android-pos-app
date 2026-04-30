@@ -1,0 +1,101 @@
+# ===============================
+# Android Studio / IntelliJ IDEA
+# ===============================
+
+# Ignorera allt i .idea
+.idea/*
+
+# Tillåt endast versionsneutral konfiguration
+!.idea/codeStyles/
+!.idea/codeStyles/**
+
+!.idea/inspectionProfiles/
+!.idea/inspectionProfiles/**
+
+!.idea/vcs.xml
+
+# ===============================
+# IntelliJ / Android Studio user state (explicit)
+# ===============================
+.idea/
+
+# ===============================
+# Module / project files
+# ===============================
+*.iml
+
+# ===============================
+# Gradle / Android
+# ===============================
+.gradle/
+**/build/
+local.properties
+.gradle-local/
+
+# ===============================
+# Native / build tooling
+# ===============================
+.cxx/
+.externalNativeBuild/
+.navigation/
+captures/
+*.hprof
+
+# ===============================
+# Kotlin / Java
+# ===============================
+.kotlin/
+**/.kotlin/
+*.class
+*.jar
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# OS
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Keystores
+# ===============================
+*.jks
+*.keystore
+*.pem
+
+# ===============================
+# Third-party SDKs
+# ===============================
+*.aar
+
+# Gradle
+.gradle/
+.gradle-cache/
+build/
+
+# Local files
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+
+# Build outputs
+**/build/
+**/release/
+
+# APKs
+*.apk
+
+# Native libs (SDKs)
+app/src/main/jniLibs/
+
+# OS
+.DS_Store
+
+# Temp
+*.swp

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartPOS</string>
+    <string name="title_activity_feedback">FeedbackActivity</string>
+
+    <string name="main_search_placeholder">Search products...</string>
+    <string name="main_search_no_results">No results for \"%1$s\"</string>
+
+    <string name="main_btn_show_all">Show all products</string>
+    <string name="main_scan_hint">or scan product here</string>
+
+    <string name="category_favorites">Favorites</string>
+    <string name="category_all">All</string>
+    <string name="category_title">Categories</string>
+    <string name="category_selected_count">%1$d selected</string>
+
+    <string name="product_unit_price">%d SEK</string>
+
+    <string name="desc_clear_search">Clear search</string>
+    <string name="desc_scan_icon">Scanner icon</string>
+    <string name="desc_no_results_icon">No results found</string>
+
+    <string name="scan_success_added">Product added</string>
+
+    <string name="refund_header">Refund</string>
+    <string name="refund_search_placeholder">Search receipt number...</string>
+    <string name="refund_unit_price">%d SEK</string>
+    <string name="refund_bought_quantity">(%1$d pcs)</string>
+    <string name="refund_btn">Refund %1$d SEK</string>
+    <string name="refund_invalid_receipt">Receipt number must be 6 digits</string>
+    <string name="refund_invalid_receipt_status">Receipt cannot be refunded</string>
+    <string name="refund_failed">Refund failed</string>
+    <string name="refund_wrong_card_title">Wrong card</string>
+    <string name="refund_wrong_card_message">This is not the same card. Do you want to continue?</string>
+    <string name="receipt_not_found">Reciept number not found</string>
+
+    <string name="payment_failed">Payment could not be completed</string>
+    <string name="payment_error_device_not_connected">Terminal is not connected</string>
+    <string name="payment_error_device_busy">Terminal is busy</string>
+    <string name="payment_error_timeout">Payment timed out</string>
+    <string name="payment_error_aborted">Payment was cancelled</string>
+    <string name="payment_error_start_failed">Could not start payment</string>
+    <string name="payment_error_session_not_active">Could not start session</string>
+    <string name="payment_error_card_read_failed">Could not read card</string>
+    <string name="payment_error_wrong_card">Wrong card used</string>
+    <string name="payment_error_already_in_progress">Payment already in progress</string>
+    <string name="payment_error_declined">Payment declined</string>
+    <string name="payment_error_terminal_unknown">Unknown terminal error</string>
+    <string name="payment_error_unknown">Unknown payment error</string>
+    <string name="payment_processing">Processing payment…</string>
+
+    <string name="menu_business_name">Café Kvarnen</string>
+    <string name="menu_item_pos">Register</string>
+    <string name="menu_item_refund">Refund / Returns</string>
+    <string name="menu_item_lock">Lock Register</string>
+    <string name="menu_item_about">About</string>
+    <string name="menu_desc_close">Close menu</string>
+
+    <string name="about_title">About Terminal</string>
+    <string name="about_device_info_title">Device Info</string>
+    <string name="about_merchant_info_title">Merchant Info</string>
+    <string name="about_payment_app_name">Payment App</string>
+    <string name="about_payment_app_version">Version (Payment App)</string>
+    <string name="about_psdk_version">PSDK Version</string>
+    <string name="about_serial_number">Serial Number</string>
+    <string name="about_manufacturer">Manufacturer</string>
+    <string name="about_model">Model</string>
+    <string name="about_os_version">OS Version</string>
+    <string name="about_name">Name</string>
+    <string name="about_merchant_id">Merchant ID</string>
+    <string name="about_currencies">Currencies</string>
+    <string name="about_address">Address</string>
+    <string name="about_phone_number">Phone Number</string>
+    <string name="about_not_available">N/A</string>
+    <string name="about_copied_message">Copied: %1$s</string>
+
+    <string name="login_header">SELLER LOGIN</string>
+    <string name="login_instruction">Enter personal code</string>
+
+    <string name="feedback_title">Payment completed</string>
+    <string name="feedback_btn_print">Print receipt</string>
+    <string name="feedback_btn_skip">Skip receipt</string>
+
+    <string name="cart_title">Shopping Cart</string>
+    <string name="cart_btn_pay">Pay</string>
+    <string name="cart_label_subtotal">Subtotal</string>
+
+    <string name="cat_dryck">Drinks</string>
+    <string name="cat_mat">Food</string>
+    <string name="cat_snacks">Snacks</string>
+    <string name="cat_vegansk">Vegan</string>
+
+    <string name="prod_100001">Coffee</string>
+    <string name="prod_100002">Latte</string>
+    <string name="prod_100003">Cake</string>
+    <string name="prod_100004">Sandwich</string>
+    <string name="prod_100005">Smoothie</string>
+    <string name="prod_100006">Chocolate Chip Cookie</string>
+    <string name="prod_100007">Vegan Chocolate Chip Cookie</string>
+    <string name="prod_100008">Oat Latte</string>
+    <string name="prod_100009">Matcha Latte</string>
+
+    <string name="cart_pay_button">Pay %1$d SEK</string>
+    <string name="content_desc_cart">Cart</string>
+    <string name="content_desc_close">Close</string>
+
+    <string name="pin_amount_to_pay">AMOUNT TO PAY</string>
+    <string name="pin_amount_format">%1$d SEK</string>
+    <string name="pin_cancel_confirm_title">Are you sure you want to cancel the payment?</string>
+
+    <string name="desc_contactless_payment">Contactless payment</string>
+    <string name="desc_backspace">Backspace</string>
+    <string name="desc_confirm">Confirm</string>
+    <string name="desc_cancel">Cancel</string>
+
+    <string name="common_yes">Yes</string>
+    <string name="common_no">No</string>
+
+    <string name="feedback_title_payment">Payment Approved</string>
+    <string name="feedback_title_refund">Refund Completed</string>
+    <string name="desc_success_check">Success</string>
+
+    <string name="cart_discount_applied">Code %1$s (-%2$d SEK)</string>
+    <string name="cart_label_total">Total</string>
+    <string name="cart_price_format">%1$d SEK</string>
+    <string name="cart_quantity_multiplier">x%1$d</string>
+
+    <string name="desc_security_processing">Please wait...</string>
+    <string name="desc_locking">Locking register…</string>
+    <string name="desc_unlocking">Unlocking…</string>
+    <string name="terminal_connection_lost">No connection to payment terminal</string>
+    <string name="terminal_not_ready">Terminal not logged in</string>
+    <string name="terminal_connection_lost_instructions_off_device">Unable to connect to the payment terminal. Ensure the device is powered on and connected to the same Wi-Fi network.</string>
+    <string name="terminal_connection_lost_instructions_on_device">Unable to connect to the payment application. Please wait. If the connection is not restored, restart the terminal.</string>
+
+    <string name="modal_customize">Choose %1$s</string>
+    <string name="modal_from_price">from %1$d SEK</string>
+    <string name="modal_label_size">Size</string>
+    <string name="modal_label_quantity">Quantity</string>
+    <string name="modal_add_to_cart">Add to cart (%1$d SEK)</string>
+    <string name="modal_price_modifier">+%1$d SEK</string>
+    <string name="variant_standard">Standard</string>
+
+    <string name="warning_text">Terminal not connected</string>
+</resources>

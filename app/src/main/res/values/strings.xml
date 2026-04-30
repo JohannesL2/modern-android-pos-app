@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="app_name">SmartPOS</string>
+    <string name="title_activity_feedback">FeedbackActivity</string>
+
+    <string name="main_search_placeholder">Sök produkter...</string>
+    <string name="main_search_no_results">Inga träffar på \"%1$s\"</string>
+
+    <string name="main_btn_show_all">Visa alla produkter</string>
+    <string name="main_scan_hint">eller scanna produkt här</string>
+
+    <string name="category_favorites">Favoriter</string>
+    <string name="category_all">Alla</string>
+    <string name="category_title">Kategorier</string>
+    <string name="category_selected_count">%1$d valda</string>
+
+    <string name="desc_clear_search">Rensa sökning</string>
+    <string name="desc_scan_icon">Scanner-ikon</string>
+    <string name="desc_no_results_icon">Inga resultat hittades</string>
+
+    <string name="scan_success_added">Produkt tillagd</string>
+
+    <string name="refund_header">Återköp</string>
+    <string name="refund_search_placeholder">Sök kvittonummer...</string>
+    <string name="refund_unit_price">%d kr</string>
+    <string name="refund_bought_quantity">(%1$d st)</string>
+    <string name="refund_invalid_receipt">Kvittonumret måste vara 6 siffror</string>
+    <string name="refund_invalid_receipt_status">Kvittot kan inte återbetalas</string>
+    <string name="refund_failed">Återbetalningen misslyckades</string>
+    <string name="refund_wrong_card_title">Fel kort</string>
+    <string name="refund_wrong_card_message">Kortet är inte samma. Vill du fortsätta?</string>
+
+    <string name="menu_business_name">Café Kvarnen</string>
+    <string name="menu_item_pos">Kassa</string>
+    <string name="menu_item_refund">Återköp / Retur</string>
+    <string name="menu_item_lock">Lås kassan</string>
+    <string name="menu_item_about">Om appen</string>
+    <string name="menu_desc_close">Stäng meny</string>
+
+    <string name="about_title">Om terminalen</string>
+    <string name="about_device_info_title">Enhetsinformation</string>
+    <string name="about_merchant_info_title">Butiksinformation</string>
+    <string name="about_payment_app_name">Payment App</string>
+    <string name="about_payment_app_version">Version (Payment App)</string>
+    <string name="about_psdk_version">PSDK-version</string>
+    <string name="about_serial_number">Serienummer</string>
+    <string name="about_manufacturer">Tillverkare</string>
+    <string name="about_model">Modell</string>
+    <string name="about_os_version">OS-version</string>
+    <string name="about_name">Namn</string>
+    <string name="about_merchant_id">Merchant ID</string>
+    <string name="about_currencies">Valutor</string>
+    <string name="about_address">Adress</string>
+    <string name="about_phone_number">Telefonnummer</string>
+    <string name="about_not_available">Ej tillgänglig</string>
+    <string name="about_copied_message">Kopierat: %1$s</string>
+
+    <string name="login_header">SÄLJARINLOGGNING</string>
+    <string name="login_instruction">Ange personlig kod</string>
+
+    <string name="feedback_title">Betalning slutförd</string>
+    <string name="feedback_btn_print">Skriv ut kvitto</string>
+    <string name="feedback_btn_skip">Hoppa över kvitto</string>
+
+    <string name="cart_title">Varukorg</string>
+    <string name="cart_btn_pay">Att betala</string>
+    <string name="cart_label_subtotal">Delsumma</string>
+
+    <string name="cat_dryck">Dryck</string>
+    <string name="cat_mat">Mat</string>
+    <string name="cat_snacks">Snacks</string>
+    <string name="cat_vegansk">Veganskt</string>
+
+    <string name="prod_100001">Kaffe</string>
+    <string name="prod_100002">Latte</string>
+    <string name="prod_100003">Kaka</string>
+    <string name="prod_100004">Smörgås</string>
+    <string name="prod_100005">Smoothie</string>
+    <string name="prod_100006">Chocolate Chip Cookie</string>
+    <string name="prod_100007">Vegansk Chocolate Chip Cookie</string>
+    <string name="prod_100008">Havrelatte</string>
+    <string name="prod_100009">Matchalatte</string>
+
+    <string name="cart_pay_button">Betala %1$d kr</string>
+    <string name="content_desc_cart">Varukorg</string>
+    <string name="content_desc_close">Stäng</string>
+    
+    <string name="pin_amount_to_pay">BELOPP ATT BETALA</string>
+    <string name="pin_amount_format">%1$d kr</string>
+
+    <string name="desc_contactless_payment">Kontaktlös betalning</string>
+    <string name="desc_backspace">Radera</string>
+    <string name="desc_confirm">Bekräfta</string>
+    <string name="desc_cancel">Avbryt</string>
+
+    <string name="pin_cancel_confirm_title">Är du säker på att du vill avbryta köpet?</string>
+    <string name="common_yes">Ja</string>
+    <string name="common_no">Nej</string>
+
+    <string name="feedback_title_payment">Betalning godkänd</string>
+    <string name="feedback_title_refund">Återköp slutfört</string>
+    <string name="desc_success_check">Framgång</string>
+
+    <string name="cart_discount_applied">Kod %1$s (-%2$d kr)</string>
+    <string name="cart_label_total">Att betala</string>
+    <string name="cart_price_format">%1$d kr</string>
+    <string name="cart_quantity_multiplier">x %1$d</string>
+
+    <string name="desc_security_processing">Vänligen vänta...</string>
+    <string name="desc_locking">Låser kassan…</string>
+    <string name="desc_unlocking">Låser upp…</string>
+    <string name="terminal_connection_lost">Betalterminal inte uppkopplad</string>
+    <string name="terminal_not_ready">Terminal inte inloggad</string>
+    <string name="terminal_connection_lost_instructions_off_device">Kunde inte ansluta till betalterminalen. Kontrollera att den är påslagen och ansluten till samma Wi-Fi-nätverk.</string>
+    <string name="terminal_connection_lost_instructions_on_device">Kunde inte ansluta till betaltjänsten. Vänta en stund. Om anslutningen inte återupprättas, starta om terminalen. </string>
+
+    <string name="payment_failed">Betalning kunde inte genomföras</string>
+    <string name="payment_error_device_not_connected">Terminalen är inte ansluten</string>
+    <string name="payment_error_device_busy">Terminalen är upptagen</string>
+    <string name="payment_error_timeout">Betalningen tog för lång tid</string>
+    <string name="payment_error_aborted">Betalningen avbröts</string>
+    <string name="payment_error_start_failed">Kunde inte starta betalningen</string>
+    <string name="payment_error_session_not_active">Sessionen kunde inte startas</string>
+    <string name="payment_error_card_read_failed">Kort kunde inte läsas</string>
+    <string name="payment_error_wrong_card">Fel kort användes</string>
+    <string name="payment_error_already_in_progress">Betalning pågår redan</string>
+    <string name="payment_error_declined">Betalning nekades</string>
+    <string name="payment_error_terminal_unknown">Okänt terminalfel</string>
+    <string name="payment_error_unknown">Okänt fel vid betalning</string>
+    <string name="payment_processing">Behandlar betalning…</string>
+    <string name="msg_cart_cleared">Varukorgen rensad</string>
+    <string name="product_unit_price">%d kr</string>
+    <string name="refund_btn">Returnera %1$d kr</string>
+    <string name="receipt_not_found">Kvittonumret hittades inte</string>
+    
+    <string name="modal_customize">Välj %1$s</string>
+    <string name="modal_from_price">från %1$d kr</string>
+    <string name="modal_label_size">Storlek</string>
+    <string name="modal_label_quantity">Antal</string>
+    <string name="modal_add_to_cart">Lägg till (%1$d kr)</string>
+    <string name="modal_price_modifier">+%1$d kr</string>
+    <string name="variant_standard">Standard</string>
+
+    <string name="warning_text">Terminal frånkopplad</string>
+</resources>
