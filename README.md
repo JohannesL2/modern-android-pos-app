@@ -1,17 +1,16 @@
-# POS Integration Architecture (Anonymized)
+# POS Integration Architecture
 
 This repository contains a conceptual POS (Point of Sale) application demonstrating an integration architecture for payment terminals, receipt printing, and scanning.
 
-The original implementation has been anonymized:
+**We describe our project more in details and provide full documentation here:**
+
+**[Documentation](https://docs-pos-app.netlify.app/)**
+
 - Vendor-specific SDKs have been removed
 - All hardware interactions are represented as pseudocode
 - Sensitive logic has been simplified
 
 The purpose is to showcase architecture and integration patterns — not to provide a production-ready solution.
-
-**We describe our project more in details and provide full documentation here:**
-
-**[Documentation Site](https://<your-docs-url>)**
 
 ## Background
 
